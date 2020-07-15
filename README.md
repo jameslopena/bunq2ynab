@@ -22,7 +22,7 @@ To choose which account you want the transactions to be imported, you must edit 
 The following environment variables are required. You can put these in your Azure function configuration or on your local during testing
 
 * YnabApiKey - your  Ynab API Key
-* YnabBudgetGuid - You can find this when you click on your budget E.g. https://app.youneedabudget.com/<BudgetGuid>/budget/202007
+* YnabBudgetGuid - You can find this when you click on your budget E.g. https://app.youneedabudget.com/{BufgetGuid}/budget/202007
 * BunqApiKey - your Bunq API key
 * MoneyTaryAccountId - You can get this by calling Bunq's API. https://doc.bunq.com/#/monetary-account-bank/List_all_MonetaryAccountBank_for_User
 * PayeeTransforms - If you want to replace payees name 
